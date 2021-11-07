@@ -1,4 +1,3 @@
-from yaml import add_constructor
 from MessageQueue import MessageQueue, ChannelConfigObject
 from DBInterface import DBInterface
 

@@ -217,12 +217,6 @@ async def settings(inter):
     pass
 
 
-# settings = bot.command_group(
-#     name="set",
-#     description="Adjust settings for channels",
-# )
-
-
 @settings.sub_command(
     name="bounds", description="Set the minimum and maximum bounds for a channel"
 )
